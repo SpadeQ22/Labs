@@ -5,12 +5,21 @@ import org.junit.Test;
 
 public class solutionTest {
 
-//
-//    @Test
-//    public void solve4A(){
-//        solution sol = new solution();
-//
-//    }
+
+    @Test
+    public void solve4A(){
+        solution sol = new solution();
+        int case1 = 2;
+        int case2 = 1000000;
+        int case3 = 100909083;
+        int case4 = 7;
+        int case5 = 8;
+        Assert.assertEquals("NO", sol.solve4A(case1));
+        Assert.assertEquals("YES", sol.solve4A(case2));
+        Assert.assertEquals("NO", sol.solve4A(case3));
+        Assert.assertEquals("NO", sol.solve4A(case4));
+        Assert.assertEquals("YES", sol.solve4A(case5));
+    }
     @Test
     public void solve69A(){
         solution sol = new solution();
